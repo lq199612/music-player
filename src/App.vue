@@ -2,7 +2,8 @@
 .App 
   Header 
   Tab
-  router-view
+  keep-alive
+    router-view
 </template>
 
 <script>
